@@ -1,0 +1,639 @@
+Create a modern, professional, responsive cricket news website called **“Cricket Lions”** with the tagline **“World Cricket Update”**.
+
+Build the complete website using only:
+
+* HTML5
+* CSS3
+* Vanilla JavaScript
+* No React
+* No Bootstrap
+* No Tailwind
+* No backend required for the initial version
+
+The website should look like a premium modern sports-news platform, similar in quality and usability to major cricket websites.
+
+## BRAND
+
+Website Name: **CRICKET LIONS**
+
+Tagline: **World Cricket Update**
+
+Theme: Modern international cricket news
+
+Primary visual style:
+
+* Dark navy / black sports theme
+* Green cricket-inspired accent color
+* White text
+* Gold/yellow highlights for important cricket information
+* Clean cards
+* Subtle gradients
+* Smooth animations
+* Premium sports-broadcast feeling
+
+Use a simple lion/cricket-inspired logo concept with the text **CRICKET LIONS**.
+
+---
+
+# 1. HEADER / NAVIGATION
+
+Create a sticky responsive navigation bar.
+
+Left:
+
+* Cricket Lions logo
+* “CRICKET LIONS”
+
+Center/right navigation:
+
+* Home
+* Latest News
+* Matches
+* Teams
+* Rankings
+* Videos
+* Photos
+* About
+
+Add:
+
+* Search icon
+* Dark/light mode toggle
+* Mobile hamburger menu
+
+On mobile, convert the navigation into an animated hamburger menu.
+
+Header should remain visible while scrolling.
+
+---
+
+# 2. HERO SECTION
+
+Create a large cinematic cricket hero section.
+
+Include:
+
+* Large cricket stadium background image
+* Dark overlay
+* Main headline
+* Short news description
+* “Read Full Story” button
+* “Latest Updates” button
+
+Example headline:
+
+**“The World of Cricket, All in One Place”**
+
+Supporting text:
+
+“Get the latest cricket news, match updates, scores, rankings, player stories and major moments from around the world.”
+
+Add subtle animated cricket/stadium visual effects.
+
+---
+
+# 3. LIVE SCORE / MATCH CENTER
+
+Create a highly visible **LIVE MATCH CENTER** section.
+
+Display cricket matches as cards.
+
+Each match card should contain:
+
+* Tournament name
+* Match status
+* Team 1
+* Team 2
+* Team logos/flags
+* Score
+* Overs
+* Match result/status
+* Venue
+* Date/time
+
+Example:
+
+LIVE
+
+INDIA
+184/6 (20)
+
+vs
+
+SRI LANKA
+178/8 (20)
+
+India won by 6 runs
+
+Use a glowing LIVE indicator.
+
+JavaScript should allow the match cards to be dynamically updated.
+
+---
+
+# 4. LATEST CRICKET NEWS
+
+Create a responsive news grid.
+
+Each news card should contain:
+
+* Cricket image
+* Category
+* Headline
+* Short description
+* Published date
+* Author
+* Read more button
+
+Example categories:
+
+* International
+* IPL
+* BBL
+* PSL
+* ICC
+* Test Cricket
+* ODI
+* T20
+* Women's Cricket
+* Domestic Cricket
+
+Add hover animations to the cards.
+
+---
+
+# 5. FEATURED NEWS
+
+Create a large featured-news layout.
+
+One large article should occupy the left side.
+
+Three smaller articles should appear on the right.
+
+Example:
+
+FEATURED
+
+**“Championship Clash Set to Deliver Another Cricket Classic”**
+
+Include:
+
+* Large image
+* Category
+* Date
+* Short description
+* Read Story button
+
+Make this section visually impressive.
+
+---
+
+# 6. MATCH SCHEDULE
+
+Create a **Match Schedule** section.
+
+Add tabs:
+
+* Today
+* Tomorrow
+* Upcoming
+* Completed
+
+Each match should display:
+
+Tournament
+Date
+Teams
+Venue
+Match status
+
+Use JavaScript to switch between the tabs without reloading the page.
+
+---
+
+# 7. CRICKET TEAMS
+
+Create a teams section containing cards for major international cricket teams.
+
+Examples:
+
+🇮🇳 India
+🇱🇰 Sri Lanka
+🇦🇺 Australia
+🏴 England
+🇵🇰 Pakistan
+🇿🇦 South Africa
+🇳🇿 New Zealand
+🇧🇩 Bangladesh
+🇦🇫 Afghanistan
+🇼🇸 West Indies
+
+Each team card should contain:
+
+* Flag/logo
+* Team name
+* Country
+* View Team button
+
+Clicking a team should open a team details section/modal.
+
+---
+
+# 8. PLAYER SPOTLIGHT
+
+Create a **Player Spotlight** section.
+
+Each player card should contain:
+
+* Player image
+* Player name
+* Country
+* Role
+* Batting style
+* Bowling style
+* Recent statistics
+
+Example statistics:
+
+Matches
+Runs
+Average
+Strike Rate
+Wickets
+
+Use attractive sports-stat cards.
+
+---
+
+# 9. CRICKET RANKINGS
+
+Create a rankings section.
+
+Add tabs:
+
+* Test
+* ODI
+* T20I
+* Batters
+* Bowlers
+* All-Rounders
+
+Create ranking tables containing:
+
+Rank
+Player
+Country
+Rating
+Movement
+
+Add arrows for ranking movement:
+
+↑ Improved
+↓ Dropped
+— No change
+
+Tables must be responsive on mobile.
+
+---
+
+# 10. VIDEO SECTION
+
+Create a **Latest Cricket Videos** section.
+
+Use video-thumbnail cards.
+
+Each card should contain:
+
+* Thumbnail
+* Play button
+* Video title
+* Duration
+* Category
+* Date
+
+When clicking a video, open a modal video player.
+
+Use JavaScript for the modal.
+
+---
+
+# 11. PHOTO GALLERY
+
+Create a beautiful cricket photo gallery.
+
+Use a responsive masonry/grid layout.
+
+Categories:
+
+* Matches
+* Players
+* Stadiums
+* Celebrations
+* Training
+* Fans
+
+Clicking an image should open a fullscreen lightbox.
+
+Add:
+
+* Previous button
+* Next button
+* Close button
+
+---
+
+# 12. NEWSLETTER
+
+Create a premium newsletter section.
+
+Headline:
+
+**“Never Miss a Cricket Update”**
+
+Text:
+
+“Subscribe to Cricket Lions and receive the biggest cricket stories, match updates and breaking news.”
+
+Include:
+
+Email input
+Subscribe button
+
+Use JavaScript validation.
+
+Show a success message after valid submission.
+
+---
+
+# 13. SEARCH FUNCTION
+
+Create a working website search.
+
+When the user clicks the search icon:
+
+* Open a search interface
+* Allow users to type keywords
+* Filter news cards dynamically
+* Display matching articles
+* Show “No results found” when appropriate
+
+Search should work using JavaScript.
+
+---
+
+# 14. BREAKING NEWS TICKER
+
+Add a breaking-news ticker below the header.
+
+Example:
+
+🔴 BREAKING NEWS
+
+“Cricket Lions — Your Daily Source for World Cricket Updates”
+
+Make the ticker continuously scroll horizontally.
+
+Allow JavaScript to update the ticker text.
+
+---
+
+# 15. FOOTER
+
+Create a large professional footer.
+
+Include:
+
+CRICKET LIONS
+
+World Cricket Update
+
+Navigation:
+
+* Home
+* News
+* Matches
+* Teams
+* Rankings
+* Videos
+* Photos
+* About
+
+Social links:
+
+* YouTube
+* Facebook
+* Instagram
+* X
+* TikTok
+
+Newsletter signup
+
+Copyright:
+
+© 2026 Cricket Lions. All Rights Reserved.
+
+Add a small disclaimer:
+
+“Cricket Lions is an independent cricket news platform.”
+
+---
+
+# 16. RESPONSIVE DESIGN
+
+The website must work perfectly on:
+
+* Desktop
+* Laptop
+* Tablet
+* Mobile
+
+Breakpoints should be carefully designed.
+
+Mobile experience is extremely important.
+
+Avoid horizontal scrolling.
+
+Use CSS Grid and Flexbox.
+
+---
+
+# 17. ANIMATIONS
+
+Add tasteful animations:
+
+* Fade-in sections
+* Card hover effects
+* Image zoom on hover
+* Button hover animations
+* Smooth scrolling
+* Navigation animation
+* Loading animations
+* Match LIVE pulse animation
+* Number/stat animations
+* Modal animations
+
+Animations should feel premium and not excessive.
+
+---
+
+# 18. DARK / LIGHT MODE
+
+Create a working theme switcher.
+
+Dark mode:
+
+* Black/navy background
+* White text
+* Green/gold accents
+
+Light mode:
+
+* White/light gray background
+* Dark text
+* Green cricket accents
+
+Save the user's selected theme using localStorage.
+
+---
+
+# 19. JAVASCRIPT FEATURES
+
+Use vanilla JavaScript to implement:
+
+* Mobile menu
+* Dark/light mode
+* Search
+* News filtering
+* Match tabs
+* Rankings tabs
+* Video modal
+* Image lightbox
+* Newsletter validation
+* Dynamic match cards
+* Dynamic news cards
+* Scroll animations
+* Back-to-top button
+* Theme persistence using localStorage
+
+Keep JavaScript clean and modular.
+
+---
+
+# 20. FILE STRUCTURE
+
+Create the project using:
+
+/cricket-lions
+│
+├── index.html
+├── style.css
+├── script.js
+│
+├── /images
+│   ├── logo.png
+│   ├── hero.jpg
+│   ├── news/
+│   ├── players/
+│   ├── teams/
+│   └── videos/
+│
+└── README.md
+
+Keep HTML, CSS and JavaScript separated.
+
+---
+
+# 21. UI QUALITY
+
+The website must feel like a real professional cricket media company.
+
+Important design principles:
+
+* Strong visual hierarchy
+* Large high-quality cricket imagery
+* Clean typography
+* Excellent spacing
+* Rounded cards
+* Subtle shadows
+* Smooth transitions
+* Professional icons
+* Consistent colors
+* Accessible buttons
+* Readable text
+* Fast loading
+* Mobile-first responsive design
+
+Do not make it look like a basic HTML template.
+
+Make it look like a **premium sports-news website**.
+
+---
+
+# 22. SAMPLE CONTENT
+
+Use realistic sample cricket content so the website looks populated.
+
+Create at least:
+
+* 8 news articles
+* 6 match cards
+* 10 teams
+* 8 player profiles
+* 10 ranking entries
+* 6 video cards
+* 12 gallery images
+
+Use placeholder image URLs if local images are unavailable.
+
+Do not use copyrighted logos or images without permission. Structure the site so official/licensed images can easily be replaced later.
+
+---
+
+# 23. PERFORMANCE & SEO
+
+Add:
+
+* Semantic HTML5
+* Proper title
+* Meta description
+* Open Graph metadata
+* Responsive viewport
+* Image lazy loading
+* Accessible alt text
+* Proper heading hierarchy
+* Keyboard-friendly controls
+* SEO-friendly URLs/structure where applicable
+
+Page title:
+
+**Cricket Lions | World Cricket Update**
+
+Meta description:
+
+**Cricket Lions brings you the latest world cricket news, live match updates, scores, rankings, player stories, videos and cricket highlights.**
+
+---
+
+# 24. IMPORTANT
+
+Generate the COMPLETE working website.
+
+Do not provide only a design concept.
+
+Provide the complete:
+
+1. index.html
+2. style.css
+3. script.js
+
+All buttons and interactive features should work.
+
+The website should run by simply opening `index.html` in a browser.
+
+Make the final result feel like a professional international cricket media website called:
+
+# 🦁 CRICKET LIONS
+
+### WORLD CRICKET UPDATE
+
+Use modern, clean, premium sports UI design throughout the entire website.
